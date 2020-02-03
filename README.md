@@ -1,1 +1,4 @@
-# eng.pdn.ac.lk-Unofficial-interim-transcript-template
+Thanks @samurdhilbk
+
+# eng.pdn.ac.lk Interim Transcript Template (Unofficial)
+
