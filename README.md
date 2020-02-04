@@ -6,12 +6,20 @@
 .
 * You **must** get the interim transcript approved with the signature and seal of the head of the department.
 
+* **Frequently Asked Questions**
+  * Can I add or drop technical electvies when I am filling this?
+  * Should I round off/up/down my GPA?
+  * How can I mention me completing the internship even when TR400 results are not officially released?
+  * **Answer:** Ask the head of the department. 
+  
 * **Disclaimer:** The creator(s) do not take any responsibility for how you ue this template or what you run into in the process, including but not limited to:
   * Head of department declining to approve this template.
   * Any institution declining to accept this unofficial transcript.
   * Mistakes you make while filling your information.
   * You intentionally filling fake information.
   * Someone using the logo or any other information in this document for any malicious purpose.
+
+  
 
 * Overleaf link: [https://www.overleaf.com/read/cyjpryyxnthy](https://www.overleaf.com/read/cyjpryyxnthy)
 * Example transcipt [pdf](https://github.com/gihanjayatilaka/eng.pdn.ac.lk-unofficial-interim-transcript-template/blob/master/transcript.pdf)
