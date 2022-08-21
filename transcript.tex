@@ -1,13 +1,13 @@
 \documentclass[12pt]{article}
-
-\usepackage{fontspec}
-\setmainfont[Ligatures=TeX]{Arial}
+\usepackage[utf8]{inputenc}
+% \usepackage{fontspec}
+% \setmainfont[Ligatures=TeX]{Arial}
 \newcommand{\comment}[1]{}
 
 %\usepackage[scaled]{helvet}
 %\renewcommand\familydefault{\sfdefault} 
 %\usepackage[T1]{fontenc}
-
+\usepackage{makecell}
 \usepackage{hyperref}
 \usepackage{lingmacros}
 \usepackage{anyfontsize}
@@ -92,34 +92,40 @@
 
 \section*{General Programme in Engineering Courses}
 
-A student who advances to follow the Final Course in Engineering has earned a minimum of 33 credits from the General Programme in Engineering (This is without considering GP 102: English II).
+A student who advances to follow the Specialization Programme in Engineering has earned a minimum of 33 credits from the General Programme in Engineering (This is without considering GP 102: English II).
 
 \begin{table}[h]
-\begin{tabularx}{\textwidth}{|X|l|l|l|l|}
+\begin{tabularx}{\textwidth}{
+    |>{\hsize=0.6\hsize}X| 
+    >{\hsize=0.5\hsize}X|
+    >{\hsize=2.0\hsize}X|
+    >{\hsize=0.4\hsize}X|
+    >{\hsize=0.5\hsize}X|
+   }
 \hline 
 \textbf{Semester Ending Date} & \textbf{Course ID} & \textbf{Course Unit Name} & \textbf{Grade} & \textbf{Credits} \\ 
 \hline
-30-May-16 & GP101 & English I & Z+- & 3 \\ 
+27-Jun-19 & GP101 & English I & Z+- & 3 \\ 
 \hline
-30-May-16 & GP103 & Mathematics I & Z+- & 3 \\ 
+27-Jun-19 & GP109 & Materials Science & Z+- & 3 \\ 
 \hline
-30-May-16 & GP109 & Materials Science & Z+- & 3 \\ 
+27-Jun-19 & GP110 & Engineering Mechanics & Z+- & 3 \\ 
 \hline
-30-May-16 & GP110 & Engineering Mechanics & Z+- & 3 \\ 
+27-Jun-19 & GP112 & Engineering Measurements & Z+- & 3 \\ 
 \hline
-30-May-16 & GP112 & Engineering Measurements & Z+- & 3 \\ 
+27-Jun-19 & GP114 & Engineering Drawing & Z+- & 3 \\ 
 \hline
-30-May-16 & GP114 & Engineering Drawing & Z+- & 3 \\ 
+27-Jun-19 & GP115 & Calculus I & Z+- & 3 \\ 
 \hline
-13-Oct-16 & GP104 & Mathematics II & Z+- & 3 \\ 
+06-Dec-19 & GP106 & Computing & Z+- & 3 \\ 
 \hline
-13-Oct-16 & GP106 & Computing & Z+- & 3 \\ 
+06-Dec-19 & GP111 & Elementary Thermodynamics & Z+- & 3 \\
 \hline
-13-Oct-16 & GP108 & Electricity & Z+- & 3 \\ 
+06-Dec-19 & GP113 & Fundamentals of Manufacture & Z+- & 3 \\ 
 \hline
-13-Oct-16 & GP111 & Elementary Thermodynamics & Z+- & 3 \\ 
+06-Dec-19 & GP116 & Linear Algebra & Z+- & 3 \\ 
 \hline
-13-Oct-16 & GP113 & Fundamentals of Manufacture & Z+- & 3 \\ 
+06-Dec-19 & GP118 & \makecell[l]{Basic Electrical \& \\Electronic Engineering} & Z+- & 3 \\ 
 \hline
 \end{tabularx}
 \end{table}
@@ -138,7 +144,7 @@ A student who advances to follow the Final Course in Engineering has earned a mi
 \hline 
 \end{tabularx}
 
-The following Core and Technical Elective courses contribute towards the calculation of GPA. If a course is repeated, the best attempt is used for all of the above calculations.
+\noindent The following Core and Technical Elective courses contribute towards the calculation of GPA. If a course is repeated, the best attempt is used for all of the above calculations.
 
 \begin{table}[H]
 \begin{tabularx}{\textwidth}{
@@ -156,13 +162,15 @@ The following Core and Technical Elective courses contribute towards the calcula
 \hline
 06-Jun-17 & CO222 & Programming Methodology & Z+- & 0.0 & 3 \\ 
 \hline
-06-Jun-17 & CO223 & Computer Communication Networks & Z+- & 0.0 & 3 \\ 
+06-Jun-17 & CO223 & Computer Communication Networks I & Z+- & 0.0 & 3 \\ 
 \hline
-06-Jun-17 & EE282 & Network Analysis for Computer Engineering & Z+- & 0.0 & 3 \\ 
+06-Jun-17 & EE282 & Network Analysis for Computer Engineering & Z+- & 0.0 & 3 \\
 \hline
-06-Jun-17 & EM201 & Mathematics III & Z+- & 0.0 & 3 \\ 
+06-Jun-17 & EM211 & Ordinary Differential Equations  & Z+- & 0.0 & 2 \\ 
 \hline
-06-Jun-17 & EM313 & Discrete Mathematics & Z+- & 0.0 & 3 \\ 
+06-Jun-17 & EM213 & Probability and Statistics & Z+- & 0.0 & 2 \\ 
+\hline
+06-Jun-17 & EM214 & Discrete Mathematics & Z+- & 0.0 & 3 \\ 
 \hline
 23-Oct-17 & CO224 & Computer Architecture & Z+- & 0.0 & 3 \\ 
 \hline
@@ -172,11 +180,11 @@ The following Core and Technical Elective courses contribute towards the calcula
 \hline
 23-Oct-17 & EE285 & Electronics I & Z+- & 0.0 & 3 \\ 
 \hline
-23-Oct-17 & EM202 & Mathematics IV & Z+- & 0.0 & 3 \\ 
+23-Oct-17 & EM212 & Calculus II & Z+- & 0.0 & 2 \\ 
 \hline
-23-Oct-17 & EM314 & Numerical Analysis & Z+- & 0.0 & 3 \\ 
-\hline
-23-Oct-17 & EM514 & Partial Differential Equations & Z+- & 0.0 & 3 \\ 
+23-Oct-17 & EM215 & Numerical Methods & Z+- & 0.0 & 3 \\ 
+% \hline
+% 23-Oct-17 & EM514 & Partial Differential Equations & Z+- & 0.0 & 3 \\ 
 \hline
 29-Dec-17 & CO227 & Computer Engineering Project & Z+- & 0.0 & 2 \\ 
 \hline
@@ -226,7 +234,7 @@ The following Core and Technical Elective courses contribute towards the calcula
 
 \vspace{10pt}
 
-The General Elective courses do not count towards GPA calculation. But these courses count for the Earned Credits to claim the degree and Credit Deficit calculations. If a course is repeated, the grade obtained in the best attempt is used for all of the above calculations.
+\noindent The General Elective courses do not count towards GPA calculation. But these courses count for the Earned Credits to claim the degree and Credit Deficit calculations. If a course is repeated, the grade obtained in the best attempt is used for all of the above calculations.
 
 \begin{table}[H]
 \begin{tabularx}{\textwidth}{
@@ -261,7 +269,7 @@ The General Elective courses do not count towards GPA calculation. But these cou
 
 TR400: Industrial Training will have to be Passed for the student to successfully complete the Specialization Programme in Engineering. After passing TR400, the student earns 6 more credits towards claiming the degree.
 
-GP102: English II will have to be Passed for the student to successfully complete the General Programme in Engineering. After passing GP102, the student earns 3 more credits towards claiming the degree.
+\noindent GP102: English II will have to be Passed for the student to successfully complete the General Programme in Engineering. After passing GP102, the student earns 3 more credits towards claiming the degree.
 
 \begin{table}[H]
 \begin{tabularx}{\textwidth}{|L|l|l|l|l|}
@@ -327,7 +335,7 @@ This is an interim academic transcript issued at the request of the student, cov
 \noindent
 \begin{minipage}[t]{0.5\linewidth}
     \raggedright
-    \sign{Dr. Eng. Kamalanath Samarakoon}
+    \sign{Prof. Roshan G. Ragel}
     \par
     Head of Department\par
     Department of Computer Engineering, \par
