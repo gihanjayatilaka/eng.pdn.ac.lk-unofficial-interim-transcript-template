@@ -11,7 +11,8 @@
   * Should I round off/up/down my GPA?
   * How can I mention me completing the internship even when TR400 results are not officially released?
   * The previous semester results are not added to the degree claim page. Can I add them to this transcript? 
-  * **Answer:** Ask the head of your department. 
+    
+  **Answer to all FAQs:** Ask the head of your department.
   
 * **Disclaimer:** The creator(s) do not take any responsibility for how you ue this template or what you run into in the process, including but not limited to:
   * Head of department declining to approve this template.
